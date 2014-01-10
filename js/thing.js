@@ -1,4 +1,4 @@
-var symbols = '<>+-,.[]';
+var symbols = '<>+-[]';
 var tape = [];
 var data = [];
 var pointer = 0;
