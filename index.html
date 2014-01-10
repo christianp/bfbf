@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Big Friendly Bf</title>
+
+		<!-- jquery -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+		<!-- normalise.css -->
+		<link rel="stylesheet" href="http://css.cdn.tl/normalize.css"></link>
+
+		<script type="text/javascript" src="js/thing.js"></script>
+		<link rel="stylesheet" href="css/thing.css"></link>
+		<link rel="stylesheet" href="fonts/cmun.css"></link>
+	</head>
+	<body>
+		<p>This page implements <a target="_blank" href="http://en.wikipedia.org/wiki/Brainfuck">the programming language CP can't name</a>.</p>
+
+		<div class="controls">
+			<button type=button id="go">Go</button>
+			<button type=button id="stop" style="display:none">Stop</button>
+			<button type=button id="reset">Reset</button>
+			<span class="separator"></span>
+			<label id="speed">Speed <input type="range" min="0" max="20"/></label>
+		</div>
+		<h4>Tape</h4>
+		<div class="container">
+			<div id="tape">
+				<span class="start" tabindex=1>$</span>
+				<span class="end" tabindex=1>…</span>
+			</div>
+		</div>
+		<p><a id="link">Link to this program</a>.</p>
+		<h4>Data</h4>
+		<div class="container">
+			<div id="memory">
+			</div>
+		</div>
+
+		<div class="footer">
+			by <a href="http://checkmyworking.com">cp</a>.
+		</div>
+	</body>
+</html>
+
+
+

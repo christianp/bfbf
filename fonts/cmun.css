@@ -1,0 +1,358 @@
+@font-face {
+	font-family: 'Computer Modern Bright Semibold';
+	src: url('Bright Semibold/cmunbsr.eot');
+	src: url('Bright Semibold/cmunbsr.eot?#iefix') format('embedded-opentype'),
+		 url('Bright Semibold/cmunbsr.woff') format('woff'),
+		 url('Bright Semibold/cmunbsr.ttf') format('truetype'),
+		 url('Bright Semibold/cmunbsr.svg#cmunbsr') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Computer Modern Bright Semibold';
+	src: url('Bright Semibold/cmunbso.eot');
+	src: url('Bright Semibold/cmunbso.eot?#iefix') format('embedded-opentype'),
+		 url('Bright Semibold/cmunbso.woff') format('woff'),
+		 url('Bright Semibold/cmunbso.ttf') format('truetype'),
+		 url('Bright Semibold/cmunbso.svg#cmunbso') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Computer Modern Bright';
+	src: url('Bright/cmunbmr.eot');
+	src: url('Bright/cmunbmr.eot?#iefix') format('embedded-opentype'),
+		 url('Bright/cmunbmr.woff') format('woff'),
+		 url('Bright/cmunbmr.ttf') format('truetype'),
+		 url('Bright/cmunbmr.svg#cmunbmr') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Computer Modern Bright';
+	src: url('Bright/cmunbbx.eot');
+	src: url('Bright/cmunbbx.eot?#iefix') format('embedded-opentype'),
+		 url('Bright/cmunbbx.woff') format('woff'),
+		 url('Bright/cmunbbx.ttf') format('truetype'),
+		 url('Bright/cmunbbx.svg#cmunbbx') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Computer Modern Bright';
+	src: url('Bright/cmunbmo.eot');
+	src: url('Bright/cmunbmo.eot?#iefix') format('embedded-opentype'),
+		 url('Bright/cmunbmo.woff') format('woff'),
+		 url('Bright/cmunbmo.ttf') format('truetype'),
+		 url('Bright/cmunbmo.svg#cmunbmo') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Computer Modern Bright';
+	src: url('Bright/cmunbxo.eot');
+	src: url('Bright/cmunbxo.eot?#iefix') format('embedded-opentype'),
+		 url('Bright/cmunbxo.woff') format('woff'),
+		 url('Bright/cmunbxo.ttf') format('truetype'),
+		 url('Bright/cmunbxo.svg#cmunbxo') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Classical Serif Italic';
+	src: url('Classical Serif Italic/cmunci.eot');
+	src: url('Classical Serif Italic/cmunci.eot?#iefix') format('embedded-opentype'),
+		 url('Classical Serif Italic/cmunci.woff') format('woff'),
+		 url('Classical Serif Italic/cmunci.ttf') format('truetype'),
+		 url('Classical Serif Italic/cmunci.svg#cmunci') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Computer Modern Concrete';
+	src: url('Concrete/cmunorm.eot');
+	src: url('Concrete/cmunorm.eot?#iefix') format('embedded-opentype'),
+		 url('Concrete/cmunorm.woff') format('woff'),
+		 url('Concrete/cmunorm.ttf') format('truetype'),
+		 url('Concrete/cmunorm.svg#cmunorm') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Concrete';
+	src: url('Concrete/cmunobx.eot');
+	src: url('Concrete/cmunobx.eot?#iefix') format('embedded-opentype'),
+		 url('Concrete/cmunobx.woff') format('woff'),
+		 url('Concrete/cmunobx.ttf') format('truetype'),
+		 url('Concrete/cmunobx.svg#cmunobx') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Concrete';
+	src: url('Concrete/cmunoti.eot');
+	src: url('Concrete/cmunoti.eot?#iefix') format('embedded-opentype'),
+		 url('Concrete/cmunoti.woff') format('woff'),
+		 url('Concrete/cmunoti.ttf') format('truetype'),
+		 url('Concrete/cmunoti.svg#cmunoti') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Concrete';
+	src: url('Concrete/cmunobi.eot');
+	src: url('Concrete/cmunobi.eot?#iefix') format('embedded-opentype'),
+		 url('Concrete/cmunobi.woff') format('woff'),
+		 url('Concrete/cmunobi.ttf') format('truetype'),
+		 url('Concrete/cmunobi.svg#cmunobi') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Computer Modern Sans Demi-Condensed';
+	src: url('Sans Demi-Condensed/cmunssdc.eot');
+	src: url('Sans Demi-Condensed/cmunssdc.eot?#iefix') format('embedded-opentype'),
+		 url('Sans Demi-Condensed/cmunssdc.woff') format('woff'),
+		 url('Sans Demi-Condensed/cmunssdc.ttf') format('truetype'),
+		 url('Sans Demi-Condensed/cmunssdc.svg#cmunssdc') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('Sans/cmunss.eot');
+	src: url('Sans/cmunss.eot?#iefix') format('embedded-opentype'),
+		 url('Sans/cmunss.woff') format('woff'),
+		 url('Sans/cmunss.ttf') format('truetype'),
+		 url('Sans/cmunss.svg#cmunss') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('Sans/cmunsx.eot');
+	src: url('Sans/cmunsx.eot?#iefix') format('embedded-opentype'),
+		 url('Sans/cmunsx.woff') format('woff'),
+		 url('Sans/cmunsx.ttf') format('truetype'),
+		 url('Sans/cmunsx.svg#cmunsx') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('Sans/cmunsi.eot');
+	src: url('Sans/cmunsi.eot?#iefix') format('embedded-opentype'),
+		 url('Sans/cmunsi.woff') format('woff'),
+		 url('Sans/cmunsi.ttf') format('truetype'),
+		 url('Sans/cmunsi.svg#cmunsi') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('Sans/cmunso.eot');
+	src: url('Sans/cmunso.eot?#iefix') format('embedded-opentype'),
+		 url('Sans/cmunso.woff') format('woff'),
+		 url('Sans/cmunso.ttf') format('truetype'),
+		 url('Sans/cmunso.svg#cmunso') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Computer Modern Serif Slanted';
+	src: url('Serif Slanted/cmunsl.eot');
+	src: url('Serif Slanted/cmunsl.eot?#iefix') format('embedded-opentype'),
+		 url('Serif Slanted/cmunsl.woff') format('woff'),
+		 url('Serif Slanted/cmunsl.ttf') format('truetype'),
+		 url('Serif Slanted/cmunsl.svg#cmunsl') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Serif Slanted';
+	src: url('Serif Slanted/cmunbl.eot');
+	src: url('Serif Slanted/cmunbl.eot?#iefix') format('embedded-opentype'),
+		 url('Serif Slanted/cmunbl.woff') format('woff'),
+		 url('Serif Slanted/cmunbl.ttf') format('truetype'),
+		 url('Serif Slanted/cmunbl.svg#cmunbl') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('Serif/cmunrm.eot');
+	src: url('Serif/cmunrm.eot?#iefix') format('embedded-opentype'),
+		 url('Serif/cmunrm.woff') format('woff'),
+		 url('Serif/cmunrm.ttf') format('truetype'),
+		 url('Serif/cmunrm.svg#cmunrm') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('Serif/cmunbx.eot');
+	src: url('Serif/cmunbx.eot?#iefix') format('embedded-opentype'),
+		 url('Serif/cmunbx.woff') format('woff'),
+		 url('Serif/cmunbx.ttf') format('truetype'),
+		 url('Serif/cmunbx.svg#cmunbx') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('Serif/cmunti.eot');
+	src: url('Serif/cmunti.eot?#iefix') format('embedded-opentype'),
+		 url('Serif/cmunti.woff') format('woff'),
+		 url('Serif/cmunti.ttf') format('truetype'),
+		 url('Serif/cmunti.svg#cmunti') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Serif';
+	src: url('Serif/cmunbi.eot');
+	src: url('Serif/cmunbi.eot?#iefix') format('embedded-opentype'),
+		 url('Serif/cmunbi.woff') format('woff'),
+		 url('Serif/cmunbi.ttf') format('truetype'),
+		 url('Serif/cmunbi.svg#cmunbi') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Typewriter Light';
+	src: url('Typewriter Light/cmunbtl.eot');
+	src: url('Typewriter Light/cmunbtl.eot?#iefix') format('embedded-opentype'),
+		 url('Typewriter Light/cmunbtl.woff') format('woff'),
+		 url('Typewriter Light/cmunbtl.ttf') format('truetype'),
+		 url('Typewriter Light/cmunbtl.svg#cmuntt') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Typewriter Light';
+	src: url('Typewriter Light/cmunbto.eot');
+	src: url('Typewriter Light/cmunbto.eot?#iefix') format('embedded-opentype'),
+		 url('Typewriter Light/cmunbto.woff') format('woff'),
+		 url('Typewriter Light/cmunbto.ttf') format('truetype'),
+		 url('Typewriter Light/cmunbto.svg#cmunbto') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Computer Modern Typewriter Variable';
+	src: url('Typewriter Variable/cmunvt.eot');
+	src: url('Typewriter Variable/cmunvt.eot?#iefix') format('embedded-opentype'),
+		 url('Typewriter Variable/cmunvt.woff') format('woff'),
+		 url('Typewriter Variable/cmunvt.ttf') format('truetype'),
+		 url('Typewriter Variable/cmunvt.svg#cmuntt') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Typewriter Variable';
+	src: url('Typewriter Variable/cmunvi.eot');
+	src: url('Typewriter Variable/cmunvi.eot?#iefix') format('embedded-opentype'),
+		 url('Typewriter Variable/cmunvi.woff') format('woff'),
+		 url('Typewriter Variable/cmunvi.ttf') format('truetype'),
+		 url('Typewriter Variable/cmunvi.svg#cmunvi') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Typewriter';
+	src: url('Typewriter/cmuntt.eot');
+	src: url('Typewriter/cmuntt.eot?#iefix') format('embedded-opentype'),
+		 url('Typewriter/cmuntt.woff') format('woff'),
+		 url('Typewriter/cmuntt.ttf') format('truetype'),
+		 url('Typewriter/cmuntt.svg#cmuntt') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Typewriter';
+	src: url('Typewriter/cmuntb.eot');
+	src: url('Typewriter/cmuntb.eot?#iefix') format('embedded-opentype'),
+		 url('Typewriter/cmuntb.woff') format('woff'),
+		 url('Typewriter/cmuntb.ttf') format('truetype'),
+		 url('Typewriter/cmuntb.svg#cmuntb') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Typewriter';
+	src: url('Typewriter/cmunit.eot');
+	src: url('Typewriter/cmunit.eot?#iefix') format('embedded-opentype'),
+		 url('Typewriter/cmunit.woff') format('woff'),
+		 url('Typewriter/cmunit.ttf') format('truetype'),
+		 url('Typewriter/cmunit.svg#cmunit') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Typewriter';
+	src: url('Typewriter/cmuntx.eot');
+	src: url('Typewriter/cmuntx.eot?#iefix') format('embedded-opentype'),
+		 url('Typewriter/cmuntx.woff') format('woff'),
+		 url('Typewriter/cmuntx.ttf') format('truetype'),
+		 url('Typewriter/cmuntx.svg#cmuntx') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Computer Modern Upright Italic';
+	src: url('Upright Italic/cmunui.eot');
+	src: url('Upright Italic/cmunui.eot?#iefix') format('embedded-opentype'),
+		 url('Upright Italic/cmunui.woff') format('woff'),
+		 url('Upright Italic/cmunui.uif') format('truetype'),
+		 url('Upright Italic/cmunui.svg#cmunui') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
