@@ -8,7 +8,7 @@ var waitTicks = 0;
 
 var running = false;
 var stepmode = 0;
-var stepSpeed = 50;
+var stepSpeed = 30;
 var scrollSpeed = stepSpeed*3;
 var inc = 0;
 var maxWaitTicks = 5;
@@ -140,6 +140,7 @@ $(function() {
 	}
 	setTape(tape.length,'');
 	reset();
+	$('.symbol:first').focus();
 
 	setInterval(step,stepSpeed);
 
@@ -198,8 +199,11 @@ $(function() {
 	/// jquery stuff
 	//
 	function scrollToSymbol(i) {
-		var left = $('#tape .symbol').eq(i).position().left - $('#tape').position().left;;
-		$('#tape').parent().stop().animate({scrollLeft:left-300},scrollSpeed);
+		var symbolLeft = $('#tape .symbol').eq(i).position().left;
+		var left = symbolLeft - $('#tape').position().left;;
+		$('#tape').parent().stop().animate({scrollLeft:left-300},{
+			duration: scrollSpeed
+		});
 	}
 	
 	$('#tape').on('focus','.start',function() {
@@ -225,6 +229,7 @@ $(function() {
 					return;
 				tape.splice(i-1,1);
 				$(this).prev().remove();
+				break;
 			case 46: //delete
 				var i = $(this).index()-1;
 				tape.splice(i,1);
@@ -233,6 +238,15 @@ $(function() {
 				if(tape.length==1)
 					$('.symbol').focus();
 				e.preventDefault();
+				break;
+			case 36: //home
+				$('#tape .symbol:first').focus();
+				e.preventDefault();
+				break;
+			case 35: //end
+				$('#tape .symbol:last').focus();
+				e.preventDefault();
+				break;
 		}
 	});
 	$('#tape').on('keypress','.symbol',function(e) {
@@ -244,6 +258,8 @@ $(function() {
 		var s = newSymbol();
 		s.text(c);
 		s.insertBefore(this);
+		s.focus();
+		$(this).focus();
 		tape.splice(i,0,c);
 		setTape(i,c);
 	});
